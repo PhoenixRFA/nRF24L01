@@ -1,29 +1,29 @@
-AMS1117 - 3 мА без диода, 3.8 мА с диодом
-Дуня + AMS = 24.8 мА
+AMS1117 - 3 РјРђ Р±РµР· РґРёРѕРґР°, 3.8 РјРђ СЃ РґРёРѕРґРѕРј
+Р”СѓРЅСЏ + AMS = 24.8 РјРђ
 
-Маленький nRF + максимальная мощь 3.3 В
-nRF powerUp + stopListen = 30 мкА
-nRF powerDown + stopListen = 1.6 мкА
-nRF powerUp + startListen = 14 мА
-nRF powerDown + startListen = 14 мА
-// Таким образом при startList модуль автоматом включается!
-nRF powerUp + radio.write = 16 мА
-Закончили отправку: 1.6 мкА
+РњР°Р»РµРЅСЊРєРёР№ nRF + РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РјРѕС‰СЊ 3.3 Р’
+nRF powerUp + stopListen = 30 РјРєРђ
+nRF powerDown + stopListen = 1.6 РјРєРђ
+nRF powerUp + startListen = 14 РјРђ
+nRF powerDown + startListen = 14 РјРђ
+// РўР°РєРёРј РѕР±СЂР°Р·РѕРј РїСЂРё startList РјРѕРґСѓР»СЊ Р°РІС‚РѕРјР°С‚РѕРј РІРєР»СЋС‡Р°РµС‚СЃСЏ!
+nRF powerUp + radio.write = 16 РјРђ
+Р—Р°РєРѕРЅС‡РёР»Рё РѕС‚РїСЂР°РІРєСѓ: 1.6 РјРєРђ
 
-Маленький nRF + мин мощь
-nRF powerUp + radio.write = 9.8 мА
-nRF powerUp + startListen = 14 мА
+РњР°Р»РµРЅСЊРєРёР№ nRF + РјРёРЅ РјРѕС‰СЊ
+nRF powerUp + radio.write = 9.8 РјРђ
+nRF powerUp + startListen = 14 РјРђ
 
-Маленький nRF + максимальная мощь 5 В
-nRF powerUp + startListen = 18 мА
-nRF powerUp + radio.write = 19 мА
+РњР°Р»РµРЅСЊРєРёР№ nRF + РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РјРѕС‰СЊ 5 Р’
+nRF powerUp + startListen = 18 РјРђ
+nRF powerUp + radio.write = 19 РјРђ
 
-Таким образом максимальный ток на передачу + AMS = 19 мА!
+РўР°РєРёРј РѕР±СЂР°Р·РѕРј РјР°РєСЃРёРјР°Р»СЊРЅС‹Р№ С‚РѕРє РЅР° РїРµСЂРµРґР°С‡Сѓ + AMS = 19 РјРђ!
 
-Мощный nRF + максимальная мощь 5 В
-nRF powerUp + startListen = 26 мА
+РњРѕС‰РЅС‹Р№ nRF + РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РјРѕС‰СЊ 5 Р’
+nRF powerUp + startListen = 26 РјРђ
 
-nRF powerUp + radio.write от 5 В
+nRF powerUp + radio.write РѕС‚ 5 Р’
 RF24_PA_MAX 73
 RF24_PA_HIGH 55
 RF24_PA_LOW 38
